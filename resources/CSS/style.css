@@ -72,15 +72,28 @@ header nav {
 .title {
   background-color: white;
   height: auto;
-  padding: 30px;
+  padding: 0px;
   text-align: left;
-  border: 2px grey dotted;
+  border-bottom: 2px black solid;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   background-color: white;
-  border: 2px grey dotted;
-  padding: 30px;
+  border: 2px black solid;
+  padding: 10px 0px;
+}
+
+.phototitle {
+  border: 2px black solid;
+}
+
+.contentbottom {
+  background-color: white;
+  height: auto;
+  padding: 0px;
+  text-align: left;
 }
 
 .section {
@@ -96,7 +109,7 @@ header nav {
   align-content: center;
   width: auto;
   height: 1200px;
-  background: lightgrey;
+  background: white;
 
 }
 
@@ -107,11 +120,12 @@ header nav {
   display: flex;
   flex-direction: column;
   width: 630px;
-  height: auto;
-  outline: 2px solid mediumaquamarine;
+  height: 669px;
+  outline: 1px solid black;
   margin-top: 120px;
   margin-right: 32px;
   margin-left: 32px;
+  /*box-shadow: 2px 2px 2px black;*/
 
 }
 
@@ -120,11 +134,13 @@ header nav {
 .medium {
   z-index: 0;
   display: flex;
+  flex-direction: column;
   width: 300px;
-  height: auto;
-  outline: 2px solid mediumaquamarine;
+  height: 669px;
+  outline: 1px solid black;
   margin-top: 120px;
   margin-right: 32px;
+  /*box-shadow: 2px 2px 2px black;*/
 
 
  }
@@ -135,8 +151,9 @@ header nav {
   z-index: 0;
   display: flex;
   width: 240px;
-  height: auto;
-  outline: 2px solid mediumaquamarine;
+  height: 669px;
+  outline: 1px solid dimgrey;
   margin-top: 120px;
   margin-right: 32px;
+  /*box-shadow: 2px 2px 2px black;*/
  }
